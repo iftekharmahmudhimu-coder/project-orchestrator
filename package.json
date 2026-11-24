@@ -1,0 +1,44 @@
+{
+  "name": "project-orchestrator-skill",
+  "version": "1.0.0",
+  "description": "Autonomous project builder skill for AI agents. Takes requirements, spawns specialized sub-agents in parallel, delivers working projects.",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "project-orchestrator": "./bin/project-orchestrator.js"
+  },
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "test": "node --test test/*.test.js",
+    "lint": "eslint .",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "skill",
+    "ai-agent",
+    "project-orchestrator",
+    "autonomous",
+    "sub-agents",
+    "code-generation"
+  ],
+  "author": "iftekharmahmudhimu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iftekharmahmudhimu-coder/project-orchestrator"
+  },
+  "bugs": {
+    "url": "https://github.com/iftekharmahmudhimu-coder/project-orchestrator/issues"
+  },
+  "homepage": "https://github.com/iftekharmahmudhimu-coder/project-orchestrator#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "skills/",
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
