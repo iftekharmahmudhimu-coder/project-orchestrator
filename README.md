@@ -19,7 +19,7 @@ git clone https://github.com/iftekharmahmudhimu-coder/project-orchestrator ~/.yo
 ### As an npm Package
 
 ```bash
-npm install -g project-orchestrator-skill
+npm install -g @iftekhar98/project-orchestrator-skill
 ```
 
 ## Usage
@@ -104,7 +104,7 @@ Copy to `~/.claude/skills/project-orchestrator/`
 The skill exports a `ProjectOrchestrator` class:
 
 ```javascript
-import { ProjectOrchestrator } from 'project-orchestrator-skill';
+import { ProjectOrchestrator } from '@iftekhar98/project-orchestrator-skill';
 
 const orchestrator = new ProjectOrchestrator('/path/to/project');
 await orchestrator.init();

@@ -1,5 +1,5 @@
 {
-  "name": "project-orchestrator-skill",
+  "name": "@iftekhar98/project-orchestrator-skill",
   "version": "1.0.0",
   "description": "Autonomous project builder skill for AI agents. Takes requirements, spawns specialized sub-agents in parallel, delivers working projects.",
   "main": "src/index.js",
